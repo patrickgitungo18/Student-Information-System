@@ -50,7 +50,7 @@
         $username = $_POST['username'];
         $password = md5($_POST['password']);
 
-        $sql = "SELECT * FROM user WHERE username == '$username' && password == '$password'";
+        $sql = "SELECT * FROM user WHERE username = '$username' AND password = '$password'";
 
         $res = mysqli_query($conn, $sql);
 
