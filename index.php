@@ -1,3 +1,7 @@
+<?php 
+    include('config.php');
+    include('login_check.php');
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -6,7 +10,7 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-    <h1>Student Informatiion <br>System</h1>
+    <h1>Student Information <br>System</h1>
         <ul>
             <li><a href="index.php">Dashboard</a></li>
             <li><a href="">Add Student</a></li>
